@@ -146,7 +146,7 @@ export default function Portfolio() {
               "monitoring2.jpg",
               "monitoring3.jpg"
             ],
-            detail: "Memonitoring kesehatan infrastruktur Data Center Kementerian Perhubungan (Kemenhub) secara real-time menggunakan Check MK & SolarWinds." 
+            detail: "Monitoring the health of the Ministry of Transportation (Kemenhub) Data Center infrastructure in real-time using Check MK & SolarWinds." 
           },
           { 
             txt: "Virtual Machine (VM Lifecycle)", 
