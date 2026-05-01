@@ -149,7 +149,7 @@ export default function Portfolio() {
             detail: "Monitoring the health of the Ministry of Transportation (Kemenhub) Data Center infrastructure in real-time using Check MK & SolarWinds." 
           },
           { 
-            txt: "Virtual Machine (VM Lifecycle)", 
+            txt: "Virtual Machine & SERVER", 
             tools: ["Proxmox VE", "VMware ESXi", "Server"], 
             imgs: [
               "proxmox1.jpg",
@@ -455,7 +455,7 @@ export default function Portfolio() {
             <motion.div initial={{ scale: 0.95, y: 40 }} animate={{ scale: 1, y: 0 }} exit={{ scale: 0.95, y: 40 }} className={`w-full max-w-2xl ${darkMode ? "bg-slate-900 border-white/20" : "bg-white border-black/10"} border rounded-[4rem] p-12 md:p-20 relative shadow-[0_0_100px_rgba(57,255,20,0.15)]`} onClick={e => e.stopPropagation()}>
                <button onClick={() => setSelectedDetail(null)} className="absolute top-10 right-10 opacity-30 hover:opacity-100 transition-all"><X size={32} /></button>
                <div className="space-y-12">
-                  <div className="flex items-center gap-4 text-[#39ff14]"><Signal size={24} className="animate-pulse" /><span className="text-xs font-black uppercase tracking-[0.8em]">{selectedDetail.company} REPORT</span></div>
+                  <div className="flex items-center gap-4 text-[#39ff14]"><Signal size={24} className="animate-pulse" /><span className="text-xs font-black uppercase tracking-[0.8em]">{selectedDetail.company} // REPORT</span></div>
                   <h2 className="text-4xl font-black uppercase tracking-tighter leading-none italic">{selectedDetail.title}</h2>
                   <div className={`p-8 rounded-3xl ${darkMode ? "bg-white/5" : "bg-slate-50"} border border-white/5`}>
                      <p className="text-xl font-medium leading-relaxed italic uppercase opacity-70">"{selectedDetail.desc}"</p>
