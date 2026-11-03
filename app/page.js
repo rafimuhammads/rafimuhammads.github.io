@@ -116,7 +116,7 @@ export default function Portfolio() {
 
   const cvData = {
     name: "RAFI MUHAMMAD SHIDQI",
-    summary: "NOC Engineer with approximately one year of experience managing critical networks and applications for government services. Responsible for monitoring, maintenance, and troubleshooting to ensure optimal server performance and system security. I focus on rapid incident response and regular reporting to guarantee the reliability and transparency of government technology systems.",
+    summary: "I have experience working as a Network Operation Center (NOC) Engineer in a private company that provides services to the government. In this role, I am responsible for monitoring, maintaining, and troubleshooting networks and applications/websites in government environments. I also analyzed the problem, making sure theserver performance was functioning normally and the network was optimal, as well as its security. I am used to working in a team, responding quickly to issues, and preparing regular reports to ensure transparency and reliability of government technology systems",
     linkedin: "https://www.linkedin.com/in/rafimuhammadshidqi",
     
     stats: [
