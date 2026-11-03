@@ -223,7 +223,7 @@ export default function Portfolio() {
     ],
 
     skills: {
-      hard: ["Basic Network", "Basic Linux", "Virtual Machine", "OpenVPN", "Load Balancer", "CheckMK", "HTML/CSS", "PHP","Basic SQL", "Microsoft Office"],
+      hard: ["Network", "Linux", "Virtual Machine", "OpenVPN", "Load Balancer", "CheckMK", "HTML/CSS", "PHP", "NextJS","SQL", "Microsoft Office"],
       certs: ["CISCO ( CCNAv7 )", "BNSP ( Junior Website Programming )", "Talenta AI ( Microsoft Security )", "Exodus Expert ( Power BI )"],
       soft: ["Teamwork", "Problem Solving", "Creative", "Responsible", "Adaptability", "Public Speaking"]
     }
